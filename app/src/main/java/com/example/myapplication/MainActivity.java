@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
         lvGood = findViewById(R.id.lvGood);
 
         arr = new ArrayList<>();
-        arr.add(new Good("Google","80",R.drawable.ic_action_name));
-        arr.add(new Good("Google","80",R.drawable.ic_action_name));
-        arr.add(new Good("Google","80",R.drawable.ic_action_name));
+        arr.add(new Good("Google","80",R.drawable.android_studio_t_shirt_golden_yellow));
+        arr.add(new Good("Google","80",R.drawable.android_studio_t_shirt_golden_yellow));
+        arr.add(new Good("Google","80",R.drawable.android_studio_t_shirt_golden_yellow));
         adp = new CustomGoodAdapter(this,R.layout.item_listview,arr);
         lvGood.setAdapter((adp));
     }

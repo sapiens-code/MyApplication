@@ -10,24 +10,32 @@
         android:id="@+id/imgGoods"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="25dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:layout_marginTop="16dp"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/android_studio_t_shirt_golden_yellow" />
 
     <TextView
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="186dp"
-        tools:layout_editor_absoluteY="175dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgGoods" />
 
     <TextView
         android:id="@+id/tvShopName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="186dp"
-        tools:layout_editor_absoluteY="225dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
